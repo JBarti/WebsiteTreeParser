@@ -41,8 +41,6 @@ class TreeGenerator():
         )
         return list(hrefs)
 
-        return list(hrefs)
-
     def get_url_root(self, url):
         return util.parse_url(url).hostname
 
